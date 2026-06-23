@@ -1,0 +1,69 @@
+# דרכנו יחד משכנתאות — Generative Engine Optimization Map
+
+> A mortgage consulting business specializing exclusively in the Israeli government-subsidized housing program 'Mchir LaMishtaken' (Price for the Resident). The consultant helps lottery winners navigate the complex mortgage process specific to this program, offering expert guidance tailored to first-time homebuyers who won the right to purchase subsidized housing. The brand positions itself as a niche expert who deeply understands the unique financial and bureaucratic requirements of this specific program.
+
+---
+
+## Pages
+
+### בית
+https://-f226d9df.zappy5.app
+זכיתם בהגרלת דירה בהנחה? אל תלכו לאיבוד בבירוקרטיה. צוות דרכנו יחד משכנתאות מלווה אתכם צעד-אחר-צעד בתהליך המשכנתא הייחודי של מחיר למשתכן, עם ייעוץ שחוסך לכם כסף וטעויות. דברו איתנו עוד היום.
+
+### תודה שפניתם | דרכנו יחד משכנתאות
+https://-f226d9df.zappy5.app/thank-you
+דרכנו יחד משכנתאות - תודה שפניתם | דרכנו יחד משכנתאות
+
+## Legal & Policy
+
+### Privacy Policy
+https://-f226d9df.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-f226d9df.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-f226d9df.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-f226d9df.zappy5.app
+- Endpoint: https://-f226d9df.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About דרכנו יחד משכנתאות
+A mortgage consulting business specializing exclusively in the Israeli government-subsidized housing program 'Mchir LaMishtaken' (Price for the Resident). The consultant helps lottery winners navigate the complex mortgage process specific to this program, offering expert guidance tailored to first-time homebuyers who won the right to purchase subsidized housing. The brand positions itself as a niche expert who deeply understands the unique financial and bureaucratic requirements of this specific program.
+
+## Target Audience
+- זוכי מחיר למשתכן
+- רוכשי דירה ראשונה
+
+## Industry
+Mortgage Consulting
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-f226d9df.zappy5.app/sitemap.xml
+- Robots: https://-f226d9df.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-f226d9df.zappy5.app/llms-full.txt
