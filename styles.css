@@ -5675,8 +5675,22 @@ section[data-hero-type] {
 
 /* ZAPPY_SECTION_BG_TYPE_FIX */
 [data-zappy-bg-type="color"] { background-image: none !important; background-color: var(--zappy-bg-color, transparent) !important; }
-[data-zappy-bg-type="image"] { background-image: linear-gradient(var(--zappy-bg-overlay, rgba(0,0,0,0)), var(--zappy-bg-overlay, rgba(0,0,0,0))), var(--zappy-bg-image, none) !important; background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important; }
+[data-zappy-bg-type="image"] { background-image: linear-gradient(var(--zappy-bg-overlay, rgba(0,0,0,0)), var(--zappy-bg-overlay, rgba(0,0,0,0))), var(--zappy-bg-image, none) !important; background-size: var(--zappy-bg-size, cover) !important; background-position: var(--zappy-bg-position, center) !important; background-repeat: no-repeat !important; }
 [data-zappy-bg-type="video"] { background-image: none !important; }
+/* Full-bleed hero single-image model: overlay/darkness tint layer sits above the
+   <img data-hero-bg> and below the hero content. Inline styles carry the tint;
+   this rule is the positioning safety-net. */
+.zappy-hero-overlay { position: absolute !important; inset: 0 !important; z-index: 1 !important; pointer-events: none !important; }
+section[data-hero-type^="fullscreen"] > .hero-bg-wrapper,
+section[data-hero-type^="fullscreen"] > [class*="hero-bg"],
+section[class*="hero"][data-zappy-bg-overlay-opacity] > .hero-bg-wrapper {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
 
 
 /* ZAPPY_IOS_NAVBAR_GAP_FIX */
